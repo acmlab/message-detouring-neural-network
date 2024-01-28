@@ -1,0 +1,12 @@
+*/log
+*/data
+*/temp
+/temp
+/__pycache__
+*.png
+*.jpg
+*.log
+*.svg
+*.sh
+*/__pycache__
+*.out

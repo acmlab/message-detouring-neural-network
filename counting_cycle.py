@@ -25,6 +25,6 @@ def count_cycle(dn):
     if dn not in ['texas', 'wisconsin', 'cornell', 'actor', 'squirrel', 'chameleon']:
         print("bincount", torch.LongTensor(labels).bincount().tolist()[1:])
     
-# for dn in ['texas', 'wisconsin', 'cornell', 'actor']:#, 'squirrel', 'chameleon' , 'exp', 'cexp', 'mutag', 'nci1', 'enzymes', 'ptc_fm', 'imdb-binary', 'dd']:
-for dn in ['squirrel']:
+for dn in ['texas', 'wisconsin', 'cornell', 'actor']:#, 'squirrel', 'chameleon' , 'exp', 'cexp', 'mutag', 'nci1', 'enzymes', 'ptc_fm', 'imdb-binary', 'dd']:
+# for dn in ['squirrel']:
     count_cycle(dn)
