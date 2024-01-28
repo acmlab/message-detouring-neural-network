@@ -81,7 +81,7 @@ def cross_validate_Kfold_SVM(K, y,
     return out
 
 def get_splits(data, name=None, splitn=10, random_split=False):
-    jpath = f"/ram/USERS/ziquanw/data/{name.lower()}/{name}_splits.json"
+    jpath = f"../../data/{name.lower()}/{name}_splits.json"
     trains = []
     vals = []
     tests = []

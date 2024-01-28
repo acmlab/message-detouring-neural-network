@@ -1,8 +1,8 @@
 import numpy as np
-# fn = '/ram/USERS/ziquanw/message_detouring/node_classification_benchmark/log/actor-gat-trans0-denk4-mdnn4layer_20240121170724.log'
-# fn = '/ram/USERS/ziquanw/message_detouring/node_classification_benchmark/log/texas-gin-trans1-wodee0-mdnn4layer_20240120220509.log'
-# fn = '/ram/USERS/ziquanw/message_detouring/node_classification_benchmark/log/texas-gin-trans1-wodee1-mdnn4layer_20240125191102.log'
-fn = '/ram/USERS/ziquanw/message_detouring/node_classification_benchmark/log/chameleon-gcn-trans1-wodee1-mdnn4layer_20240124181958.log'
+# fn = '../node_classification_benchmark/log/actor-gat-trans0-denk4-mdnn4layer_20240121170724.log'
+# fn = '../node_classification_benchmark/log/texas-gin-trans1-wodee0-mdnn4layer_20240120220509.log'
+# fn = '../node_classification_benchmark/log/texas-gin-trans1-wodee1-mdnn4layer_20240125191102.log'
+fn = '../node_classification_benchmark/log/chameleon-gcn-trans1-wodee1-mdnn4layer_20240124181958.log'
 with open(fn, 'r') as f:
     lines = f.read().split('\n')[:-1]
 lines = [l for l in lines if l.startswith('Split')]
